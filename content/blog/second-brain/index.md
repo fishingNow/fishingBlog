@@ -2,16 +2,17 @@
 title: 🌐 掌握网页设计与开发：HTML 与 CSS 快速入门
 summary: 学习 HTML 和 CSS，构建属于你的美丽网页。
 date: 2023-11-26
-authors:
+image:
+  caption: '图片来源：[**pixabay**](https://pixabay.com/)'
 
+authors:
   - admin
-    tags:
+  - Yu Du
+
+tags:
   - 网页设计
   - HTML
   - CSS
-    image:
-      caption: '图片来源：[**Unsplash**](https://unsplash.com)'
-
 ---
 
 学习 HTML 和 CSS，打造属于你的个性化网页，为创意增添色彩！
