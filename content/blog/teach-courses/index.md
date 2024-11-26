@@ -1,137 +1,98 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
-math: true
+title: 深圳中学龙岗学校：传承卓越教育，培养未来公民
+summary: 深圳中学龙岗学校秉承深中精神，致力于培养具有中华底蕴与国际视野的学生，成为龙岗教育的卓越标杆。
+date: 2023-11-26
+
+image:
+  caption: '图片来源：[**Unsplash**](https://unsplash.com)'
+
 authors:
   - admin
+  - Yu Du
+
 tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
-image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  - 深圳中学
+  - 龙岗教育
+  - 卓越学校
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+欢迎走进深圳中学龙岗学校 👋
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+{{< toc mobile_only=true is_open=true >}}
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+## 学校概况
 
-## Video
+深圳中学龙岗学校是龙岗区委、区政府联合深圳中学创办的九年一贯制区直属公办学校。学校坚持“促进学生充分发展”的办学理念，融合中华文化与全球视野，为培养未来公民奠定坚实基础。学校以高质量办学闻名，近年来发展迅速，成为龙岗教育的一张名片。
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+---
 
-**Youtube**:
+## 校园分布
 
-    {{</* youtube D2vj0WcvH5c */>}}
+- **初中部**：位于深圳市龙岗区中心城爱心路130号，占地面积2.3万平方米，现有35个教学班，1700余名学生。
+- **小学部**：位于深圳市龙岗区怡翠路202号，占地面积1.5万平方米，现有31个教学班，1500余名学生。
 
-{{< youtube D2vj0WcvH5c >}}
+---
 
-**Bilibili**:
+## 办学特色
 
-    {{</* bilibili BV1WV4y1r7DF */>}}
+### 1. **育人团队**
+- 拥有229名专任教师，其中研究生学历占比近30%。
+- 教师队伍专业素质高，曾获得全国中小学实验教学金奖、广东省青年教师比赛一等奖等荣誉。
+- 名师辈出，教学研究氛围浓厚，为学生成长提供有力支持。
 
-{{< bilibili BV1WV4y1r7DF >}}
+### 2. **学生发展**
+- 构建“凤凰木”德育体系，实施多彩校园活动，如“文明礼仪月”“感恩教育月”等，培养学生的品德与素养。
+- 通过“星空”系列平台（如小剧场、小广播等）激发学生潜能，提供多元化发展机会。
+- 艺术与体育蓬勃发展，校舞蹈队、合唱团等屡获大奖。
 
-**Video file**
+### 3. **教学质量**
+- 落实“双减”政策，以“小组合作”为抓手，打造高效课堂。
+- 中考成绩连续多年位居龙岗区公办学校第一，各学科A+率远超深圳市平均水平。
+- 2023年中考，40名学生被深中录取，录取人数位列全市第四。
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+---
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+## 学科与创新
 
-## Podcast
+学校致力于构建“奠基课程、拓展课程、荣誉课程”三位一体的课程体系，为学生提供广泛的学科与科技探索平台：
+- **科创课程**：机器人、无人机、3D打印、人工智能等。
+- **竞赛成绩**：在国际和国内赛事中屡获佳绩，如AMC全球优秀奖、NOC全国一等奖。
+- **未来人才培养**：通过“卓越讲堂”“博士讲堂”等学术平台，培养拔尖创新人才。
 
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
+---
 
-    {{</* audio src="ambient-piano.mp3" */>}}
+## 荣誉与影响
 
-Try it out:
+- **学校荣誉**：
+  - 全国校园足球特色学校
+  - 广东省“书香校园种子学校”
+  - 深圳市智慧教育示范校
+- **学生成就**：
+  - 22名学生获评深圳市“明日科创之星”，龙岗区排名第一。
+  - 在数学、物理、化学等竞赛中，学生屡获全国一等奖、全球大奖。
+- **社会服务**：
+  - 积极参与对口帮扶，支持西藏、贵州等地教育发展，推动教育均衡。
 
-{{< audio src="ambient-piano.mp3" >}}
+---
 
-## Test students
+## 学校愿景
 
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
+深圳中学龙岗学校将继续秉承卓越教育使命，追求内涵式发展，致力于成为“全国有影响力的深圳最好学校之一”。学校的未来，将以高度、有温度、有活力的形象继续谱写卓越教育的新篇章。
 
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
+---
 
-renders as
+## 结语
 
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
+深圳中学龙岗学校不仅是教育的摇篮，更是梦想的起点。通过创新的课程体系和卓越的教学质量，学校为学生提供了无限可能，传承深中精神，成就每一个未来公民。
 
-## Math
+**欢迎了解更多：[学校官网](https://szlgzx.edu.cn)**
 
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. Enable math by setting the `math: true` option in your page's front matter, or enable math for your entire site by toggling math in your `config/_default/params.yaml` file:
+## 主题支持
 
-```yaml
-features:
-  math:
-    enable: true
-```
+我们的博客支持**明亮**与**暗黑模式**，读者可根据偏好选择阅读体验。了解如何[自定义设计](https://docs.noi.cn/design)。
 
-To render _inline_ or _block_ math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
+## 版权声明
 
-Example **math block**:
+版权所有 2023 [信息学团队](https://noi.cn)。
 
-```latex
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-```
-
-renders as
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-```
-
-renders as
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
-
-## Did you find this page helpful? Consider sharing it 🙌
+基于 [MIT](https://github.com/ioi/competition-blog/LICENSE.md) 许可协议发布。

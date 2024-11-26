@@ -1,138 +1,159 @@
----
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 🌐 掌握网页设计与开发：HTML 与 CSS 快速入门
+summary: 学习 HTML 和 CSS，构建属于你的美丽网页。
+date: 2023-11-26
 authors:
+
   - admin
-tags:
-  - Second Brain
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+    tags:
+  - 网页设计
+  - HTML
+  - CSS
+    image:
+      caption: '图片来源：[**Unsplash**](https://unsplash.com)'
+
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+学习 HTML 和 CSS，打造属于你的个性化网页，为创意增添色彩！
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Hugo Blox 提供强大的静态网站支持，你可以使用 Markdown 编写内容，同时灵活嵌入 HTML 和 CSS，轻松创建美观实用的网站。
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+## HTML：网页的骨架
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+HTML 是网页开发的基础语言，用于定义页面的结构和内容。通过使用标签，可以创建标题、段落、图片和链接等内容。
 
-## Mindmaps
+### HTML 示例
 
-Hugo Blox supports a Markdown extension for mindmaps.
-
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
-
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
-
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
-
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
-
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-
-## Highlighting
-
-<mark>Highlight</mark> important text with `mark`:
+以下是一段简单的 HTML 代码：
 
 ```html
-<mark>Highlighted text</mark>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的网页</h1>
+        <p>这是一个用 HTML 和 CSS 构建的简单页面。</p>
+    </header>
+    <section>
+        <h2>关于我</h2>
+        <p>我是一名热爱网页设计的学习者，希望通过代码展示创意。</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 我的网页</p>
+    </footer>
+</body>
+</html>
 ```
 
-## Callouts
+这段代码展示了网页的基本结构：头部（header）、内容区（section）和底部（footer）。
 
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
+---
 
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
+## CSS：网页的美化工具
+
+CSS（层叠样式表）用于为 HTML 内容添加样式，控制网页的外观，如颜色、字体和布局。
+
+### CSS 示例
+
+为上面 HTML 页面添加样式：
+
+```html
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    header {
+        background-color: #0073e6;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+```
+
+效果：
+
+- 背景颜色为浅灰色，文字为深灰色。
+- 头部区域设置为蓝色背景、白色文字，并居中显示。
+- 页脚为深灰背景，并使用内边距调整视觉效果。
+
+---
+
+## 代码高亮
+
+<mark>通过 HTML 和 CSS 的结合，实现页面结构与样式的完美融合</mark>：
+
+```html
+<mark>学习 HTML 语义化和 CSS 层叠规则是高效网页设计的基础。</mark>
+```
+
+---
+
+## Callouts：注意点
+
+使用 Hugo 的 `callouts` 功能可以突出显示重要内容。
+
+### 提示
 
 ```markdown
 {{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+使用语义化的 HTML 标签有助于提升网站的可读性和搜索引擎优化（SEO）效果。
 {{%/* /callout */%}}
 ```
 
-renders as
+效果如下：
 
 {{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+使用语义化的 HTML 标签有助于提升网站的可读性和搜索引擎优化（SEO）效果。
 {{% /callout %}}
 
-Or use the `warning` callout type so your readers don't miss critical details:
+### 警告
+
+```markdown
+{{%/* callout warning */%}}
+尽量避免在 CSS 中使用内联样式，推荐使用外部样式表以便维护。
+{{%/* /callout */%}}
+```
+
+效果如下：
 
 {{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+尽量避免在 CSS 中使用内联样式，推荐使用外部样式表以便维护。
 {{% /callout %}}
 
-## Did you find this page helpful? Consider sharing it 🙌
+---
+
+## 更多学习资源
+
+- 📚 [HTML 官方文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+- 🎨 [CSS 官方文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+- 💻 [实时预览工具](https://codepen.io/)
+
+---
+
+## 结语
+
+HTML 和 CSS 是网页设计的两大核心技能。通过掌握它们，你可以自由地设计和开发独特的网页。从基础开始，逐步探索更多的功能，创造属于你的数字空间吧！
+
+**如果觉得有用，请分享给朋友 🙌**
