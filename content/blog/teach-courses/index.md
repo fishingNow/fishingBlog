@@ -1,10 +1,10 @@
 ---
 title: 深圳中学龙岗学校：传承卓越教育，培养未来公民
 summary: 深圳中学龙岗学校秉承深中精神，致力于培养具有中华底蕴与国际视野的学生，成为龙岗教育的卓越标杆。
-date: 2023-11-26
+date: 2024-11-07
 
 image:
-  caption: '图片来源：[**Unsplash**](https://unsplash.com)'
+  caption: '图片来源：[**深圳中学龙岗学校微信公众号**]'
 
 authors:
   - admin
@@ -93,6 +93,6 @@ tags:
 
 ## 版权声明
 
-版权所有 2023 [信息学团队](https://noi.cn)。
+版权所有 2024 [信息科技团队](https://noi.cn)。
 
 基于 [MIT](https://github.com/ioi/competition-blog/LICENSE.md) 许可协议发布。

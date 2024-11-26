@@ -1,7 +1,7 @@
 ---
 title: 🌐 掌握网页设计与开发：HTML 与 CSS 快速入门
 summary: 学习 HTML 和 CSS，构建属于你的美丽网页。
-date: 2023-11-26
+date: 2024-11-06
 image:
   caption: '图片来源：[**pixabay**](https://pixabay.com/)'
 
@@ -159,3 +159,15 @@ CSS（层叠样式表）用于为 HTML 内容添加样式，控制网页的外�
 HTML 和 CSS 是网页设计的两大核心技能。通过掌握它们，你可以自由地设计和开发独特的网页。从基础开始，逐步探索更多的功能，创造属于你的数字空间吧！
 
 **如果觉得有用，请分享给朋友 🙌**
+
+**欢迎了解更多：[学校官网](https://szlgzx.edu.cn)**
+
+## 主题支持
+
+我们的博客支持**明亮**与**暗黑模式**，读者可根据偏好选择阅读体验。了解如何[自定义设计](https://docs.noi.cn/design)。
+
+## 版权声明
+
+版权所有 2024 [信息科技团队](https://noi.cn)。
+
+基于 [MIT](https://github.com/ioi/competition-blog/LICENSE.md) 许可协议发布。

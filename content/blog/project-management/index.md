@@ -1,12 +1,12 @@
 ---
 title: 🏆 信息学奥赛：探索编程与算法的魅力
 summary: 信息学奥赛（NOI/IOI）是面向青少年的一项高水平编程竞赛，激发创新思维，培养解决实际问题的能力。
-date: 2023-11-26
+date: 2024-10-11
 
 # Featured image
 # 将一张名为 `featured.jpg/png` 的图片放在该页面文件夹内，并在此处自定义其选项。
 image:
-  caption: '图片来源：[**Unsplash**](https://unsplash.com)'
+  caption: '图片来源：[**NOI**](https://noi.cn)'
 
 authors:
   - admin
@@ -118,6 +118,6 @@ tags:
 
 ## 版权声明
 
-版权所有 2023 [信息学团队](https://noi.cn)。
+版权所有 2024 [信息科技团队](https://noi.cn)。
 
 基于 [MIT](https://github.com/ioi/competition-blog/LICENSE.md) 许可协议发布。

@@ -1,7 +1,7 @@
 ---
 title: 📊 探索数学建模：解决实际问题的强大工具
 summary: 了解数学建模如何通过分析和模拟解决复杂的实际问题，并在决策中发挥关键作用。
-date: 2023-11-26
+date: 2024-11-26
 
 # Featured image
 # 将一张名为 `featured.jpg/png` 的图片放在该页面文件夹内，并在此处自定义其选项。
@@ -89,6 +89,6 @@ tags:
 
 ## 版权声明
 
-版权所有 2023 [数学建模团队](https://mathmodeling.com)。
+版权所有 2024 [数学建模团队](https://mathmodeling.com)。
 
 基于 [MIT](https://github.com/mathmodeling/math-modeling-blog/LICENSE.md) 许可协议发布。
