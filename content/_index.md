@@ -1,6 +1,6 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: 'BlogForDuyu'
+date: 2024-11-14
 type: landing
 sections:
   - block: resume-biography
