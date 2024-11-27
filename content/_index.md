@@ -10,7 +10,7 @@ sections:
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.webp
+        filename: banner.webp
       spacing:
         padding: [0, 0, 0, 0]
       biography:
