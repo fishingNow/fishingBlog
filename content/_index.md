@@ -1,5 +1,5 @@
 ---
-title: 'BlogForDuyu'
+title: 'Home'
 date: 2024-11-14
 type: landing
 sections:
@@ -8,6 +8,9 @@ sections:
       # The user's folder name in content/authors/
       username: admin
     design:
+      banner:
+        # Upload your cover image to the `assets/media/` folder and reference it here
+        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.webp
       spacing:
         padding: [0, 0, 0, 0]
       biography:
