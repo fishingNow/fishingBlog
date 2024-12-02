@@ -6,8 +6,8 @@ title: 杜渝
 name_pronunciation: Yu Du
 
 # Full name (for SEO)
-first_name: Yu
-last_name: Du
+first_name: Du
+last_name: Yu
 
 # Status emoji
 status:
