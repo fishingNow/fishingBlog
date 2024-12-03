@@ -3,7 +3,7 @@
 title: 杜渝
 
 # Name pronunciation (optional)
-name_pronunciation: Yu Du
+name_pronunciation: Du Yu
 
 # Full name (for SEO)
 first_name: Du
